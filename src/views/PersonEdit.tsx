@@ -29,7 +29,7 @@ export default function PersonEdit() {
         name={person.name}
         value={person.ageInHours}
         onChange={(ageInHours) => updatePersonAge(person.id, ageInHours)}
-        avatarSrc="/img.png"
+        avatarSrc="/src/assets/photo.png"
       />
     </div>
   )

@@ -1,9 +1,9 @@
-import clsx from 'clsx'
 import { Link } from 'react-router-dom'
 
 import { isInputActive } from '@/shared/lib/formatNumber'
 import { Input } from '@/shared/ui/Input'
 import { useStore } from '@/store'
+import clsx from 'clsx'
 
 export default function Settings() {
   const minimumAgeInMonths = useStore((state) => state.minimumAgeInMonths)
